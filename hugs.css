@@ -37,8 +37,8 @@
     width: 20px;
     position: absolute;
     color: black;
-    top: 428px;
-    right: 130px;
+    top: 348px;
+    right: 135px;
     z-index: 2;
     cursor: pointer;
 
@@ -47,7 +47,7 @@
     width: 20px;
     position: absolute;
     color: black;
-    top: 575px;
+    top: 475px;
     right: 110px;
     z-index: 2;
     cursor: pointer;
