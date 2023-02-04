@@ -34,21 +34,21 @@
     
 } 
 .coupon-container .inbox{
-    width: 20px;
+    width: 18px;
     position: absolute;
     color: black;
-    top: 348px;
-    right: 135px;
+    top: 282px;
+    right: 50px;
     z-index: 2;
     cursor: pointer;
 
 }
 .coupon-container .lunaf{
-    width: 20px;
+    width: 16px;
     position: absolute;
     color: black;
-    top: 475px;
-    right: 110px;
+    top: 282px;
+    right: 50px;
     z-index: 2;
     cursor: pointer;
 
@@ -56,8 +56,8 @@
 .coupon-container {
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
-    height: 680px;
+    width: 300px;
+    height: 480px;
     border-radius:15px;
     text-align: center ;
     opacity: 0;
@@ -73,7 +73,7 @@
     transform: translateY(0);
     transition: all 900ms ease;
     background: rgba(250, 250, 250, .6);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(02px);
     box-shadow: 6px 12px 12px rgba(0, 0, 0, 1);
 
 
@@ -97,7 +97,7 @@
 }
 
 .coupon-container p1{
-    font-size: 12px;
+    font-size: 8px;
     cursor: pointer;
     color: black;
     margin-left: -80%;
@@ -107,13 +107,13 @@
 .coupon-container p2{
     color: black;
     font-weight: 450;
-    font-size: 45px;
+    font-size: 22px;
     padding-bottom: 0px;
     
     
 }
 .coupon-container p3{
-    font-size: 13px;
+    font-size: 08px;
     color: black;
     padding: 2px 12px;
     margin-left: 0;
@@ -121,42 +121,42 @@
     border-radius: 8px;
 }
 .coupon-container p4{
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     padding: .5px 8px;
-    margin-left: -170px;
+    margin-left: -75px;
     text-align: left;
     border-radius: 8px;
 }
 .coupon-container p5{
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     padding: .5px 8px;
-    margin-left: -200px;
+    margin-left: -98px;
     text-align: left;
     border-radius: 8px;
 }
 .coupon-container p6{
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     padding: .5px 8px;
-    margin-left: -225px;
+    margin-left: -120px;
     text-align: left;
     border-radius: 8px;
 }
 .coupon-container p7{
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     padding: .5px 8px;
-    margin-left: -238px;
+    margin-left: -128px;
     text-align: left;
     border-radius: 8px;
 }
 .coupon-container p8{
-    font-size: 24px;
-    color: black    e;
+    font-size: 18px;
+    color: black;
     padding: .5px 8px;
-    margin-left: -180px;
+    margin-left: -90px;
     text-align: left;
     border-radius: 8px;
     
@@ -166,7 +166,6 @@
     color: black;
     padding: .5px 8px;
     margin-left: 0;
-
     text-align: center;
     border-radius: 8px;
 }
@@ -189,7 +188,8 @@
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 18px 18px 36px rgba(0, 0, 0, .5);
-    font-size: 24px;
+    font-size: 15px;
+    backdrop-filter: blur(02px);
     font-weight: 300;
     font-family: 'Courier New', Courier, monospace;
     
@@ -197,7 +197,7 @@
 
     #cpnCode {
         color: black;
-        font-size: 24px;
+        font-size: 14px;
         border-right: 0;
         font-weight: 570;
        
@@ -227,20 +227,22 @@
     background: rgba(250, 250, 250, .4);
     backdrop-filter: blur(10px);
     box-shadow: 18px 18px 30px rgba(125, 125, 125, 1);
-    font-weight: 200;
     border: 2px solid black;
-    font-size: 24px;
+    backdrop-filter: blur(02px);
+    font-size: 18px;
     font-weight: 510;
-    padding: 14px 20px;
+    padding: 14px 32px;
     display: inline-block;
 }
 .coupon-container .moon{
+    color: black;
     text-decoration: none;
     border: 1px solid black;
     background: rgba(250, 250, 250, .4);
     backdrop-filter: blur(10px);
     box-shadow: 16px 16px 30px rgba(125, 125, 125, 1);
-    font-size: 18px;
+    font-size: 12px;
+    backdrop-filter: blur(02px);
     padding: 5px 29px;
     border-radius: 12px;
     margin-top: 50px;
